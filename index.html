@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Joe's Pub Quiz!</title>
+	<script src="scrip.js"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+	
+
+  </head>
+  <body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<link href="css/lity.css" rel="stylesheet">
+<script src="js/lity.js"></script>
+	  <div id="wrapper">
+  		<header>
+			<div id="logo">
+			</div>
+			<div id="menu">
+				<div class="nav">
+					<button class="navbutton" onclick="navFunction('Gen')">Number Generator</button>
+					<button class="navbutton" onclick="navFunction('Pic')">Draw a Picture</button>
+					<button class="navbutton" onclick="navFunction('Caption')">Caption Competition</button>
+					<button class="navbutton" onclick="navFunction('Next')">What Happened Next?</button>
+				</div>
+			</div>
+</div>
+  		</header>
+		<article>
+			<table>
+				<tr>
+					<td>
+					</td>
+					<td>
+						<h1>A</h1>
+					</td>
+					<td>
+						<h1>B</h1>
+					</td>
+					<td>
+						<h1>C</h1>
+					</td>
+					<td>
+						<h1>D</h1>
+					</td>
+					<td>
+						<h1>E</h1>
+					</td>
+					<td>
+						<h1>F</h1>
+					</td>
+					<td>
+						<h1>G</h1>
+					</td>
+					<td>
+						<h1>H</h1>
+					</td>
+					<td>
+						<h1>I</h1>
+					</td>
+					<td>
+						<h1>J</h1>
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h1>1&nbsp;&nbsp;</h1>
+					</td>
+					<td>
+						<button onclick="myFunction('A1')"><img id="A1" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="airFunction('B1')"><img id="B1" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('C1')"><img id="C1" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('D1')"><img id="D1" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('E1')"><img id="E1" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="dest1Function('F1')"><img id="F1" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="dest1Function('G1')"><img id="G1" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('H1')"><img id="H1" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="subFunction('I1')"><img id="I1" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('J1')"><img id="J1" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<h1>&nbsp;&nbsp;1</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h1>2&nbsp;&nbsp;</h1>
+					</td>
+					<td>
+						<button onclick="myFunction('A2')"><img id="A2" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="airFunction('B2')"><img id="B2" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('C2')"><img id="C2" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('D2')"><img id="D2" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('E2')"><img id="E2" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('F2')"><img id="F2" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('G2')"><img id="G2" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('H2')"><img id="H2" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('I2')"><img id="I2" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('J2')"><img id="J2" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<h1>&nbsp;&nbsp;2</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h1>3&nbsp;&nbsp;</h1>
+					</td>
+					<td>
+						<button onclick="myFunction('A3')"><img id="A3" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="airFunction('B3')"><img id="B3" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('C3')"><img id="C3" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('D3')"><img id="D3" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('E3')"><img id="E3" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="battleFunction('F3')"><img id="F3" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="battleFunction('G3')"><img id="G3" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="battleFunction('H3')"><img id="H3" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="battleFunction('I3')"><img id="I3" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('J3')"><img id="J3" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<h1>&nbsp;&nbsp;3</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h1>4&nbsp;&nbsp;</h1>
+					</td>
+					<td>
+						<button onclick="myFunction('A4')"><img id="A4" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="airFunction('B4')"><img id="B4" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('C4')"><img id="C4" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="subFunction('D4')"><img id="D4" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('E4')"><img id="E4" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('F4')"><img id="F4" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('G4')"><img id="G4" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('H4')"><img id="H4" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('I4')"><img id="I4" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('J4')"><img id="J4" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<h1>&nbsp;&nbsp;4</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h1>5&nbsp;&nbsp;</h1>
+					</td>
+					<td>
+						<button onclick="myFunction('A5')"><img id="A5" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="airFunction('B5')"><img id="B5" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('C5')"><img id="C5" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('D5')"><img id="D5" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('E5')"><img id="E5" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('F5')"><img id="F5" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('G5')"><img id="G5" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('H5')"><img id="H5" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('I5')"><img id="I5" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('J5')"><img id="J5" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<h1>&nbsp;&nbsp;5</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h1>6&nbsp;&nbsp;</h1>
+					</td>
+					<td>
+						<button onclick="myFunction('A6')"><img id="A6" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('B6')"><img id="B6" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('C6')"><img id="C6" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="dest2Function('D6')"><img id="D6" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('E6')"><img id="E6" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="subFunction('F6')"><img id="F6" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('G6')"><img id="G6" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="cruiserFunction('H6')"><img id="H6" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="cruiserFunction('I6')"><img id="I6" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="cruiserFunction('J6')"><img id="J6" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<h1>&nbsp;&nbsp;6</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h1>7&nbsp;&nbsp;</h1>
+					</td>
+					<td>
+						<button onclick="myFunction('A7')"><img id="A7" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('B7')"><img id="B7" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('C7')"><img id="C7" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="dest2Function('D7')"><img id="D7" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('E7')"><img id="E7" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('F7')"><img id="F7" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('G7')"><img id="G7" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('H7')"><img id="H7" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('I7')"><img id="I7" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<button onclick="myFunction('J7')"><img id="J7" src="images/button.png" width=100%     height=100%></button>
+					</td>
+					<td>
+						<h1>&nbsp;&nbsp;7</h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td>
+						<h1>A</h1>
+					</td>
+					<td>
+						<h1>B</h1>
+					</td>
+					<td>
+						<h1>C</h1>
+					</td>
+					<td>
+						<h1>D</h1>
+					</td>
+					<td>
+						<h1>E</h1>
+					</td>
+					<td>
+						<h1>F</h1>
+					</td>
+					<td>
+						<h1>G</h1>
+					</td>
+					<td>
+						<h1>H</h1>
+					</td>
+					<td>
+						<h1>I</h1>
+					</td>
+					<td>
+						<h1>J</h1>
+					</td>
+					<td>
+					</td>
+				</tr>
+			</table>
+		</article>
+
+        <footer>
+		<h2>&#169; Joe Burnside 2016</h2>
+    	</footer>	
+	  </div>	
+	  <div id="A1div" style="background:#fff" class="lity-hide">
+		<div id="penalty"></div>
+		<p>Lose one team member for the rest of the round.</p>
+	  </div>
+	  <div id="A2div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>In which decade did sliced bread first appear in the UK?</p>
+		<p>
+	  </div>
+	  <div id="A3div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the song and artist of this TV Theme.</p>
+		<video height="350" controls>
+		<source src="images/topgear.mp4" type="video/mp4">
+		</video>
+		<p></p>
+	  </div>
+	  <div id="A4div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What has two heads, four eyes, 6 legs and a tail? </p>
+		<p></p>
+	  </div>
+	  <div id="A5div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>How many pints are there in a Kilderkin?</p>
+		<p></p>
+	  </div>
+	  <div id="A6div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the film from its description on IMDB.</p>
+		<p>"During World War II, mathematician Alan Turing tries to crack the enigma code<br> with help from fellow mathematicians."</p>
+		<p></p>
+	  </div>
+	  <div id="A7div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Solve the Dingbat.</p>
+		<img src="images/dingbat.png" height="350px"/>
+		<p></p>
+	  </div>
+	  <div id="B1div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="B2div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="B3div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="B4div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="B5div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="B6div" style="background:#fff" class="lity-hide">
+		<div id="penalty"></div>
+		<p>Each member of the team flips a coin.</p>
+		<p>The team loses one point for every "Heads."</p>
+	  </div>
+	  <div id="B7div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>The name of which TV Series and Film is an anagram of "CHASE LEAN GIRLS"?</p>
+		<p></p>
+	  </div>
+	  <div id="C1div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the person from their moustache.</p>
+		<img src="images/moustache.jpg" height="350px"/>
+		<p></p>
+	  </div>
+	  <div id="C2div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Which childrens book series was written by David McKee?</p>
+		<p></p>
+	  </div>
+	  <div id="C3div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Lincoln, East End, Manchester and London<br>are all types of what?</p>
+		<p></p>
+	  </div>
+	  <div id="C4div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What is the name of Postman Pat's wife?</p>
+		<p></p>
+	  </div>
+	  <div id="C5div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the song from the intro.</p>
+		<video height="350" controls>
+		<source src="images/buzzcocks.mp4" type="video/mp4">
+		</video>
+		<p></p>
+	  </div>
+	  <div id="C6div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Which is the worlds most northerly capital city?</p>
+		<p></p>
+	  </div>
+	  <div id="C7div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>How many legs does a woodlouse have?</p>
+		</p>
+	  </div>
+	  <div id="D1div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>On a standard Playstation joypad, what colour is the Triangle?</p>
+		<p></p>
+	  </div>
+	  <div id="D2div" style="background:#fff" class="lity-hide">
+		<div id="penalty"></div>
+		<p>Team misses next turn at picking a square.</p>
+	  </div>
+	  <div id="D3div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>In a standard deck of cards, how many kings have a moustache?</p>
+		<p></p>
+	  </div>
+	  <div id="D4div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="D5div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What, on a bottle of wine, is the "Punt"?</p>
+		<p></p>
+	  </div>
+	  <div id="D6div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="D7div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="E1div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Which country uses the internet domain .es? </p>
+		<p></p>
+	  </div>
+	  <div id="E2div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Which continent contains Wilkes Land, Victoria Land and Queen Maud Land?</p>
+		<p></p>
+	  </div>
+	  <div id="E3div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the Beer.</p>
+		<img src="images/beer.jpg" height="350px"/>
+		<p></p>
+	  </div>
+	  <div id="E4div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What can be African, Chinstrap or King?</p>
+		<p></p>
+	  </div>
+	  <div id="E5div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the TV show from its description on IMDB.</p>
+		<p>"While a civil war brews between several noble families, the children of the former rulers of the land attempt to rise up to power. Meanwhile a forgotten race, bent on destruction, plans to return after thousands of years."</p>
+		<p></p>
+	  </div>
+	  <div id="E6div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>The Greek God Apollo accidently killed his friend Hyacinthus <br>while practising which sport?</p>
+		<p></p>
+	  </div>
+	  <div id="E7div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Where would you find Mons Huygens?<p>
+		<p></p>
+	  </div>
+	  <div id="F1div" style="background:#fff" class="lity-hide">
+
+	  </div>
+	  <div id="F2div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Which word, invented by J.K. Rowling, gained entry into the <br> Oxford English Dictionary in 2003?</p>
+		<p></p>
+	  </div>
+	  <div id="F3div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="F4div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Which of these words is the odd one out?</p>
+		<p>Underground<br>
+		Failure<br>
+		Sorrow<br>
+		Fame</p>
+		<p></p>
+	  </div>
+	  <div id="F5div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Trevor Francis was the first football player to be transferred between <br>two English clubs for £1million.</p>
+		<p>Who was the first player to be transferred between two English clubs for £2m?</p>
+		<p></p>
+	  </div>
+	  <div id="F6div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="F7div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p> The Binary number 100000 represents which Decimal number?</p>
+		<p></p>
+	  </div>
+	  <div id="G1div" style="background:#fff" class="lity-hide">
+	  
+	  </div>
+	  <div id="G2div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the song from the lyrics.</p>
+		<p>"How do you think I'm going to get along,<br>
+		Without you, when you're gone.<br>
+		You took me for everything that I had,<br>
+		And kicked me out on my own."</p>
+		<p></p>
+	  </div>
+	  <div id="G3div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="G4div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What Happens Next?</p>
+		<video height="350" controls>
+		<source src="images/whn.mp4" type="video/mp4">
+		</video>
+		<p></p>
+	  </div>
+	  <div id="G5div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>With regard to the product "WD40"<br>What do the letters "WD" stand for?</p>
+		<p></p>
+	  </div>
+	  <div id="G6div" style="background:#fff" class="lity-hide">
+		<div id="penalty"></div>
+		<p>Half points for this round.</p>
+	  </div>
+	  <div id="G7div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the company from its logo.</p>
+		<img src="images/complogo.gif" height="350px"/>
+		<p></p>
+	  </div>
+	  <div id="H1div" style="background:#fff" class="lity-hide">
+		<div id="penalty"></div>
+		<p>&nbsp;All team members play Rock Paper Scissors with the Quizmaster.&nbsp;</p>
+		<p>Team loses one point for each game lost.</p>
+	  </div>
+	  <div id="H2div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What did the Bank of England use for the first time in 1791?</p>
+		<p></p>
+	  </div>
+	  <div id="H3div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="H4div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+	<p>A knock out competition has 87 team entries.</p>
+	<p>What is the miminum number of games that need to be played before <br>an overall winner can be crowned?</p>
+	<p></p>
+	  </div>
+	  <div id="H5div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Who was the last Liberal to be Prime Minister of Britain?</p>
+		<p></p>
+	  </div>
+	  <div id="H6div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="H7div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Which branch of Christianity holds its meetings in Kingdom Halls?</p>
+		<p></p>
+	  </div>
+	  <div id="I1div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="I2div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What was the first ever chocolate bar to be produced by the Mars company?</p>
+		</p>
+	  </div>
+	  <div id="I3div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="I4div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the country from its flag.</p>
+		<img src="images/flag.jpg" height="350px"/>
+		<p></p>
+	  </div>
+	  <div id="I5div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What is the nickname of the Australian Rugby League team?</p>
+		<p></p>
+	  </div>
+	  <div id="I6div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="I7div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the song being played in reverse.</p>
+		<video height="350" controls>
+		<source src="images/reverse.mp4" type="video/mp4">
+		</video>
+		<p></p>
+	  </div>
+	  <div id="J1div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Name the City.</p>
+		<video height="350" controls>
+		<source src="images/cityscape.mp4" type="video/mp4">
+		</video>
+		<p></p>
+	  </div>
+	  <div id="J2div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Which American building is the largest office building in the world?</p>
+	  </div>
+	  <div id="J3div" style="background:#fff" class="lity-hide">
+		<div id="penalty"></div>
+		<p>One team member to roll a dice.</p>
+		<p>Team loses the number of points shown on the dice.</p>
+	  </div>
+	  <div id="J4div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What was the name of Captain Pugwash's ship?</p>
+		<p></p>
+	  </div>
+	  <div id="J5div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What does the letter "E" in "E-Mail actually stand for?"</p>
+		<p></p>
+	  </div>
+	  <div id="J6div" style="background:#fff" class="lity-hide">
+		
+	  </div>
+	  <div id="J7div" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>Which city was destroyed by the sound of a trumpet?</p>
+		<p></p>
+	  </div>
+	  <div id="Gendiv" style="background:#fff" class="lity-hide">
+		<img src="images/numbers.png" height=200px/><br>
+		<iframe src="https://www.random.org/widgets/integers/iframe.php?title=True+Random+Number+Generator&amp;buttontxt=Generate&amp;width=160&amp;height=200&amp;border=on&amp;bgcolor=%23FFFFFF&amp;txtcolor=%23777777&amp;altbgcolor=%23CCCCFF&amp;alttxtcolor=%23000000&amp;defaultmin=&amp;defaultmax=&amp;fixed=off" frameborder="0" width="160" height="200" scrolling="no" longdesc="https://www.random.org/integers/">
+The numbers generated by this widget come from RANDOM.ORG's true random number generator.
+</iframe>
+	  </div>
+	  <div id="Picdiv" style="width:80%;margin-left:10%;margin-right:10%;background:#fff" class="lity-hide">
+		<div class="container-fluid">
+			<h3>STUFF GOES HERE</h3>
+		</div>
+	  </div>
+	  <div id="Captiondiv" style="width:900px;background:#fff" class="lity-hide">
+		<img src="images/caption.gif" height=200px/><br>
+		<img src="images/caption.jpg" height=500px/><br>
+	  </div>
+	  <div id="Nextdiv" style="background:#fff" class="lity-hide">
+		<div id="question"></div>
+		<p>What Happens Next?</p>
+		<video height="350" controls>
+		<source src="images/whnanswer.mp4" type="video/mp4">
+		</video>
+		<p></p>
+	  </div>
+  </body>
+</html>
